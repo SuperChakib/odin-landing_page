@@ -1,0 +1,147 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+button {
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #e7e5eb;
+  font-weight: bold;
+  padding: 8px 24px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+.header {
+  background: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 200px;
+}
+.header h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e7e5eb;
+}
+
+.presentation {
+  background: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 50px 200px 100px;
+  flex-wrap: wrap;
+}
+.text {
+  max-width: 400px;
+}
+.text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+.text p {
+  font-size: 18px;
+  color: #e7e5eb;
+  margin: 0 0 10px;
+}
+.presentation img {
+  max-width: 500px;
+  height: auto;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.information h2 {
+  padding: 20px 0;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+.tiles {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.tile {
+  color: darkslategrey;
+  max-width: 150px;
+  text-align: center;
+}
+.tile img {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.quote {
+  background-color: #e7e5eb;
+  padding: 100px 260px;
+}
+.quote p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote div {
+  width: fit-content;
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.newsletter {
+  background-color: #3882f6;
+  color: #e7e5eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px 100px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+.newsletter h2 {
+  margin-bottom: 0;
+}
+.newsletter p {
+  margin-top: 5px;
+}
+.newsletter button {
+  border: 2px solid white;
+}
+
+.footer {
+  background: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
